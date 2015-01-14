@@ -1,0 +1,22 @@
+{
+    "name": "stackie/medium-theme",
+    "description": "Medium-esque for Orchestra Story",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mior Muhammad Zaki",
+            "email": "crynobone@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-name": "medium",
+        "installer-paths": {
+            "public/theme/{$name}/": ["stackie/medium-theme", "src"]
+        }
+    },
+    "minimum-stability": "dev"
+}
