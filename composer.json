@@ -16,7 +16,7 @@
     "extra": {
         "installer-name": "medium",
         "installer-paths": {
-            "public/theme/{$name}/": ["stackie/medium-theme"]
+            "public/themes/{$name}/": ["stackie/medium-theme", "src"]
         }
     },
     "minimum-stability": "dev"
