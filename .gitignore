@@ -1,3 +1,6 @@
 # Composer
 /vendor/*
-composer.lock
+/composer.lock
+
+# Node
+/node_modules/*
