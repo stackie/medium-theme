@@ -20,7 +20,7 @@
 
 	<hr>
 
-	@yield('comments')
+	@include('orchestra/story::comments')
 
 </article>
 @stop
