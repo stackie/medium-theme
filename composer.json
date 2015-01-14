@@ -1,5 +1,6 @@
 {
     "name": "stackie/medium-theme",
+    "type": "orchestraplatform-theme",
     "description": "Medium-esque for Orchestra Story",
     "license": "MIT",
     "authors": [
@@ -15,7 +16,7 @@
     "extra": {
         "installer-name": "medium",
         "installer-paths": {
-            "public/theme/{$name}/": ["stackie/medium-theme", "src"]
+            "public/theme/{$name}/": ["stackie/medium-theme"]
         }
     },
     "minimum-stability": "dev"
