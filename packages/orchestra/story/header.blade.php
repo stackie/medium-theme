@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		{!! HTML::title() !!}
-		<script src="{{ asset('packages/orchestra/foundation/js/jquery.min.js') }}"></script>
+		<script src="{{ asset('packages/orchestra/foundation/components/jquery/jquery.min.js') }}"></script>
 		<link media="all" type="text/css" rel="stylesheet" href="{{ Theme::asset('assets/css/style.css') }}">
 	</head>
 	<body class="story">
