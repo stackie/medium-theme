@@ -14,7 +14,7 @@
         "orchestra/theme-installer": "dev-master"
     },
     "extra": {
-        "installer-name": "medium"
+        "theme-name": "medium"
     },
     "minimum-stability": "dev"
 }
