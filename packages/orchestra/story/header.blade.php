@@ -6,6 +6,7 @@
 		{!! HTML::title() !!}
 		<script src="{{ asset('packages/orchestra/foundation/components/jquery/jquery.min.js') }}"></script>
 		<link media="all" type="text/css" rel="stylesheet" href="{{ Theme::asset('assets/css/style.css') }}">
+		@stack('asset.header')
 	</head>
 	<body class="story">
 		<header id="sidebar">
@@ -23,6 +24,13 @@
 				</div>
 			</ul>
 			<hgroup>
-				@include('orchestra/story::sidebar')
+				<h1>
+				    <a href="{{ handles('orchestra/story::/') }}">
+				        {{ memorize('site.name') }}
+				    </a>
+				</h1>
+				<h3>{{ memorize('site.description') }}</h3>
+
+				@yield('sidebar')
 			</hgroup>
 		</header>
