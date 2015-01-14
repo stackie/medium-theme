@@ -18,7 +18,7 @@
 	</h2>
 
 	<div class="entry-content">
-		{{ $post->body }}
+		{!! $post->body !!}
 	</div>
 </article>
 @endforeach

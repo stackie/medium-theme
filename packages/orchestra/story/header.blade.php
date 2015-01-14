@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<?php use Orchestra\Support\Facades\Theme; ?>
 <html>
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		@title()
+		{!! HTML::title() !!}
 		<script src="{{ asset('packages/orchestra/foundation/js/jquery.min.js') }}"></script>
 		<link media="all" type="text/css" rel="stylesheet" href="{{ Theme::asset('assets/css/style.css') }}">
 	</head>
@@ -24,14 +23,6 @@
 				</div>
 			</ul>
 			<hgroup>
-				<h1>
-					<a href="{{ handles('orchestra/story::/') }}">
-						{{ memorize('site.name') }}
-					</a>
-				</h1>
-				<h3>{{ memorize('site.description') }}</h3>
-
-				<iframe src="http://ghbtns.com/github-btn.html?user=crynobone&amp;type=follow&amp;count=true"
-					allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"></iframe>
+				@include('orchestra/story::sidebar')
 			</hgroup>
 		</header>
